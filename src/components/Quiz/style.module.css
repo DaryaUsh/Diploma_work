@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.imgQuiz {
+    width: 1180px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

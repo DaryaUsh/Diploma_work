@@ -1,0 +1,10 @@
+.menu {
+    display: flex;
+    align-self: center;
+    font-family: "IntroBook";
+    font-size: 14px;
+    font-weight: 400;
+    gap: 40px;
+    color: white;
+    height: 1;
+}

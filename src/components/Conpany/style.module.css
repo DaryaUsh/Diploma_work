@@ -1,0 +1,21 @@
+.section {
+    background: #484283;
+    color: #ffff;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px 0px 20px 370px;
+    background-image: url("../../images/Company/Group72.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+    
+.title {
+    padding-bottom: 40px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffff;
+    gap: 20px;
+    margin: 0 auto;
+}

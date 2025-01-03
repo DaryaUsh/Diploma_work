@@ -1,0 +1,57 @@
+.container {
+    color: #444B58;
+    width: 100%;
+    padding: 60px 370px 60px 370px;
+    display: grid;
+
+}
+
+.block {
+    display: grid;
+    border-top: 1px solid #444B58;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.quest {
+    display: block;
+    border-bottom: 1px solid #444B58;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2 {
+    color: #444B58;
+    ;
+}
+
+.h4 {
+    max-width: 80%;
+    padding-bottom: 18px;
+    display: none;
+}
+
+.active {
+    display: grid;
+}
+
+.h5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mbutton {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    color: #444B58;
+}
+
+.mbutton:hover {
+    cursor: pointer;
+}

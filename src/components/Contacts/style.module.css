@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #F3F6F6;
+}
+.block {
+    padding-top: 60px;
+    padding-left: 370px;
+    background-color: #F3F6F6;
+}
+
+.office{
+    padding-bottom: 40px;
+}
+
+.h2{
+    color: #444B58;
+    padding-bottom: 60px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.img {
+    width: 44px;
+}
+
+.name {
+    font-family: "IntroBook";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 0.08em;
+    color: #B2B5BB;
+}
+
+.tel {
+    font-family: "IntroRegular";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #444B58;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.adress{
+    font-family: "IntroBook";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #444B58;
+}
+
+.iframe {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 370px;
+}

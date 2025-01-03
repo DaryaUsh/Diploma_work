@@ -1,0 +1,37 @@
+.container {
+    background-color:  #484283;
+    color: #ffff;
+    max-width: 1920px;
+    padding: 100px 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url("../../images/Hero/back-text.png");
+    background-repeat: no-repeat;
+    background-size: 51%;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+h1 {
+    max-width: 560px;
+}
+
+.h4 {
+    max-width: 480px;
+}
+
+button {
+    max-width: 250px;
+    height: 60px;
+    background: #F14F4F;
+    color: #ffff;
+    border: none;
+    width: Hug (250px)px;
+    border-radius: 4px;
+    font-family: "IntroRegular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+.container {
+    background-color:  #484283;
+    color: #ffff;
+    max-width: 1920px;
+    height: 580px;
+    padding: 0;
+    display: flex;
+    background-image: url("../../images/AboutUs/figure.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    gap: 53px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.line {
+    max-width: 30px;
+    max-height: 3px;
+    opacity: 0px;
+}
+
+.h4 {
+    max-width: 380px;
+}
+
+h5 {
+    font-family: "IntroBold";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+.sign {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    width: 425px;
+}
+
+.men {
+    width: 680px;
+}

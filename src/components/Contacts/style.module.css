@@ -46,7 +46,7 @@
     padding-bottom: 10px;
 }
 
-.adress{
+.address {
     font-family: "IntroBook";
     font-size: 18px;
     font-weight: 400;
@@ -59,3 +59,32 @@
     margin-bottom: 60px;
     margin-right: 370px;
 }
+
+.qbutton {
+    background: white;
+    color: #444B58;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.block1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.h4 {
+    color:  #444B58;
+    max-width: 386px;
+    background-color: #fff;
+    size: 14px;
+}
+
+.tooltip {
+    max-width: 386px;
+    background-color: #fff;
+}
+

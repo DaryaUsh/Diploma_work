@@ -11,6 +11,7 @@
     width: 380px;
     height: 400px;
     object-position: top;
+    object-fit: cover;
 }
 
 .fio {

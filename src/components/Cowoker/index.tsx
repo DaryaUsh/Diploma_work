@@ -1,12 +1,12 @@
-import { Person} from '../../types/cowoker';
+import { Cowoker } from '../../types/cowoker';
 import style from './style.module.css';
 import { FC } from "react";
 
 type Props = {
-    data: Person;
+    data: Cowoker;
 };
 
-const Cowoker : FC<Props> = ({data}) => {
+const CowokerId : FC<Props> = ({data}) => {
 
     return <div className={style.cowoker}>
         <img className={style.img} src={data.imgUrl} alt ="" />
@@ -15,4 +15,4 @@ const Cowoker : FC<Props> = ({data}) => {
     </div>;
 };
 
-export default Cowoker;
+export default CowokerId;

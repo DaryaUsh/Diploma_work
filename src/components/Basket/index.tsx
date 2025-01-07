@@ -1,10 +1,16 @@
 import style from "./style.module.css";
+import cart from "../../images/cart.svg";
 
 const Basket = () => {
+    
     return (
-        <nav className={style.menu}>
+        <button className = {style.buttonCart}> 
             <a>Корзина</a>
-        </nav>
+            <div className = {style.blockIcon}>
+                <img className={style.imgCart} src={cart} alt=""></img>
+                <small className={style.gtyCart}>0</small>
+            </div>
+        </button>
     );
 };
 

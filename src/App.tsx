@@ -9,6 +9,7 @@ import Question from './components/Questions';
 import Footer from './components/Footer';
 import Contact from './components/Contacts';
 import Penultimete from './components/Penultimate';
+import Cart from './components/Cart';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Cart />
       <Hero />
       <Cards />
       <AboutUs />

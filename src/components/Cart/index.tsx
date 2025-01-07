@@ -15,7 +15,6 @@ const Cart = () => {
                                 <p className={style.title}>Prodict Name</p>
                                 <h5>$99.99</h5>
                             </div>
-                            <button onClick={() => dispatch(removeTask(task.id))} className="delete-button"><img src={trash} alt=""></button> 
                             <button className={style.button}><img src={trash} alt=""></img></button>
                         </div>
                 </div>

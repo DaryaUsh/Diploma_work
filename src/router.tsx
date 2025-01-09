@@ -1,11 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
-import Sneaker from "./components/pages/Sneaker";
+import Home from "./pages/Home";
+import SneakerPage from "./pages/SneakerPage";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
     {
-    path: "/sneaker",
-    element: <Sneaker />
-}
+    path: "/",
+    element: <Home />
+},
+{
+    path: "/sneaker/:id",
+    element: <SneakerPage />
+},
+{
+    path: "*",
+    element: <NotFound />
+},
 
 ]);
 

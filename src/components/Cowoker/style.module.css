@@ -1,14 +1,14 @@
 .cowoker {
-    max-width: 380px;
     height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-bottom: 20px;
+    width: 380px;
 }
 
 .img {
-    width: 380px;
+    max-width: 380px;
     height: 400px;
     object-position: top;
     object-fit: cover;

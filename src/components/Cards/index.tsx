@@ -5,7 +5,7 @@ import Card from "../Card";
 const Cards = () => {
     return (
         <div id="cards" className={style.block}>
-            <div className={style.container}>{sneakers.items.slice(0,6).map((sneaker) => {
+            <div className={style.container}>{sneakers.items.map((sneaker) => {
                 return <Card data = {sneaker} key ={sneaker.id}/>
             })}
             </div>

@@ -1,0 +1,11 @@
+.menuIcons {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 30px;
+    color: white;
+}
+
+.icon {
+    height: 100%;
+}

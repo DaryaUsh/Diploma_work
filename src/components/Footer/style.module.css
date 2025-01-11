@@ -1,8 +1,35 @@
 .container {
-
     display: flex;
     justify-content: space-between;
-    max-width: 1920px;
-    padding: 28px 370px;
+    max-width: 100%;
+    padding: 1.5% 19.2%;
     background:  #444B58;
+    gap: 20px;
+}
+
+.navIcon {
+    display: none;
+}
+
+@media (max-width: 1730px) {
+    .nav {
+        display: none;
+    }
+
+    .navIcon {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 465px) {
+
+    .navIcon {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
 }

@@ -1,12 +1,15 @@
 .section {
     background: #484283;
     color: #ffff;
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 60px 0px 20px 370px;
+    max-width: 100%;
+    padding: 3.2% 18.1% 1.1% 18.1%;
     background-image: url("../../images/Company/Group72.svg");
     background-repeat: no-repeat;
     background-position: right top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
 }
     
 .title {
@@ -16,6 +19,6 @@
     display: flex;
     flex-wrap: wrap;
     color: #ffff;
+    justify-content: center;
     gap: 20px;
-    margin: 0 auto;
 }

@@ -3,12 +3,11 @@ import Hero from '../../components/Hero';
 import Cards from '../../components/Cards';
 import AboutUs from '../../components/AboutUs';
 import Quiz from '../../components/Quiz';
-import Company from '../../components/Conpany';
+import Company from '../../components/Company';
 import Question from '../../components/Questions';
 import Footer from '../../components/Footer';
 import Contact from '../../components/Contacts';
 import Penultimete from '../../components/Penultimate';
-import Cart from '../../components/Cart';
 
 
 const Home = () => {

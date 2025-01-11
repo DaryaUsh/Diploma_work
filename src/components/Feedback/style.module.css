@@ -5,27 +5,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 4px;
     text-align: center;
+    border-radius: 4px;
+    padding: 20px;
 }
 
 .h2 {
-    padding: 40px;
-    padding-bottom: 20px;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 .h4 {
-    max-width: 60%;
+    max-width: 100%;
     color: white;
+    padding: 0px 40px;
     padding-bottom: 40px;
 }
 
 .input {
     margin-bottom: 10px;
-    padding: 19px 247px 19px 19px;
-    max-width: 340px;
+    padding: 19px;
+    max-width: 100%;
     max-height: 60px;
     border-radius: 4px;
+    display: flex;
+    width: 100%;
 }
 
 .button {
@@ -37,4 +42,10 @@
 
 .button:hover {
     cursor: pointer;
+}
+
+@media (max-width: 420px) {
+    .container {
+        max-width: 355px;
+    }
 }

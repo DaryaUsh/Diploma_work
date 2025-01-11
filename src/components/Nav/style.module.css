@@ -8,3 +8,12 @@
     color: white;
     height: 1;
 }
+
+@media (max-width: 1730px){
+    .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+}

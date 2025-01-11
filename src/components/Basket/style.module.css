@@ -1,6 +1,6 @@
 .buttonCart {
     display: flex;
-    align-items: center  ;
+    align-items: center;
     font-family: "IntroBook";
     font-size: 14px;
     font-weight: 400;
@@ -12,6 +12,7 @@
     max-width: auto;
     margin: 0;
     cursor: pointer;
+    
 }
 
 .blockIcon {

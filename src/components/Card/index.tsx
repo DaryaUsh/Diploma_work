@@ -12,17 +12,17 @@ type Props = {
 const Card : FC<Props> = ({data}) => {
 
     return(
-        <Link to = {`/sneaker/${data.id}`} className={style.block}>
+        <div className={style.block}>
             <a href='' className={style.card}>
                 <img className={style.animate1} src={data.imgUrl} alt ="" />
                 <p className={style.paragraph}>{data.title}</p>
                 <p className={style.price}>{data.price}</p>
             </a>
             <div className={style.preview}>
-                <button className={style.button}><img className={style.imgBtr} src={previewIcon} alt=""></img></button>
+            <Link to = {`/sneaker/${data.id}`} className={style.block}><button className={style.button}><img className={style.imgBtr} src={previewIcon} alt=""></img></button> </Link>
                 <button className={style.button}><img className={style.imgBtr} src={addCartIcon} alt=""></img></button>
             </div>
-        </Link>
+        </div>
 
     );
 };

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import SneakerPage from "./pages/SneakerPage";
+import Sneaker from "./pages/Sneaker";
 import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
@@ -10,7 +10,7 @@ const router = createBrowserRouter([
 },
 {
     path: "/sneaker/:id",
-    element: <SneakerPage />
+    element: <Sneaker />
 },
 {
     path: "*",

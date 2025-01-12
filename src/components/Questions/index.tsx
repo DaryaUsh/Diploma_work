@@ -16,7 +16,7 @@ const Question = () => {
                             {answer ? <AiOutlineClose size={25} /> : <AiOutlinePlus size={25} />}
                             </div>
                         </div>
-                            <h4 id="1" className={answer ? [style.h4, style.active].join('  ') : [style.h4]}>А это ответ 1: Кроссовки для бега должны быть легкими, чтобы не утяжелять ногу</h4>
+                            <h4 className={answer ? [style.h4, style.active].join('  ') : [style.h4]}>А это ответ 1: Кроссовки для бега должны быть легкими, чтобы не утяжелять ногу</h4>
                     </div>
                     <div className={style.quest}>
                         <div className={style.menu}>
@@ -25,7 +25,7 @@ const Question = () => {
                             {answer1 ? <AiOutlineClose size={25} /> : <AiOutlinePlus size={25} />}
                             </div>
                         </div>
-                        <h4 id="2" className={answer1 ? [style.h4, style.active].join('  ') : [style.h4]}>А это ответ 2: Любую обувь нужно подбирать с учетом безопасности и комфорта, иначе можно навредить своему здоровью.</h4>
+                        <h4 className={answer1 ? [style.h4, style.active].join('  ') : [style.h4]}>А это ответ 2: Любую обувь нужно подбирать с учетом безопасности и комфорта, иначе можно навредить своему здоровью.</h4>
                     </div>
                 </div>
         </div>

@@ -1,10 +1,12 @@
-import style from './style.module.css';
-import quiz from '../../images/Quiz/quiz.jpg';
+import Page1 from "../Сarousel/Page1";
+
+
 
 const Quiz = () => {
+
     return (
-        <div id="quiz" className={style.container}>
-            <img className={style.imgQuiz} src={quiz} alt="" />
+        <div>
+            <Page1/>
         </div>
     );
 };

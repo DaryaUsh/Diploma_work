@@ -10,22 +10,24 @@ const Contact = () => {
             <div className={style.block}>
                 <div>
                     <h2 className={style.h2}>Контакты</h2>
-                    <div className={style.office}>
-                        <div className={style.block1}>
-                            <p className={style.name}>ГЛАВНЫЙ ОФИС</p>
-                            <button id="tooltip" className={style.qbutton}>?</button>
-                            <Tooltip anchorSelect="#tooltip" className={style.tooltip}>
-                            <h4 className={style.h4}>Адрес и телефон для корреспонденции, инвесторов. Вопросы о доставке, качестве обслуживания и товара просьба задавать в отдел продаж</h4>
-                            </Tooltip>
+                    <div className={style.alloffice}>
+                        <div className={style.office}>
+                            <div className={style.block1}>
+                                <p className={style.name}>ГЛАВНЫЙ ОФИС</p>
+                                <button id="tooltip" className={style.qbutton}>?</button>
+                                <Tooltip anchorSelect="#tooltip" className={style.tooltip}>
+                                <h4 className={style.h4}>Адрес и телефон для корреспонденции, инвесторов. Вопросы о доставке, качестве обслуживания и товара просьба задавать в отдел продаж</h4>
+                                </Tooltip>
 
+                            </div>
+                                <a href="tel:+78007898989" className={style.tel}>+7 800 789 89 89</a>
+                                <p className={style.address}>г. Санкт-Петербург, Комсомольская, 43 к1</p>
                         </div>
-                        <a href="tel:+78007898989" className={style.tel}>+7 800 789 89 89</a>
-                        <p className={style.address}>г. Санкт-Петербург, Комсомольская, 43 к1</p>
-                    </div>
-                    <div className={style.office}>
-                        <p className={style.name}>ОТДЕЛ ПРОДАЖ</p>
-                        <a href="tel:+78007898989" className={style.tel}>+7 800 789 89 89</a>
-                        <p className={style.address}>г. Санкт-Петербург, Комсомольская, 43 к1</p>
+                        <div className={style.office}>
+                            <p className={style.name}>ОТДЕЛ ПРОДАЖ</p>
+                            <a href="tel:+78007898989" className={style.tel}>+7 800 789 89 89</a>
+                            <p className={style.address}>г. Санкт-Петербург, Комсомольская, 43 к1</p>
+                        </div>
                     </div>
                     <div className={style.icon}>
                         <img className={style.img} src={vk} alt="" />

@@ -1,0 +1,172 @@
+.container {
+    display: none;
+    max-width: 100%;
+    margin: 3.1% 19.2%;
+    background: #FFF4EE;
+    padding: 4.17% 5.2% 1.93% 5.2%;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.h2 {
+    color: #444B58;
+}
+
+.h4 {
+    color: #DBBBA9;
+
+}
+
+.border {
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid #DBBBA9;
+}
+
+.form {
+    width: 655px;
+    height: 399px;
+    background: #DBBBA9;
+    padding: 40px 115px 40px 40px;
+}
+
+.p {
+    font-size: 36px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+
+.p2 {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.input {
+    margin-bottom: 10px;
+    padding: 19px;
+    max-width: 100%;
+    max-height: 60px;
+    border-radius: 4px;
+    display: flex;
+    width: 100%;
+    border: none;
+    color: #DBBBA9;
+}
+
+::placeholder {
+    color: #B2B5BB;
+
+}
+
+.button {
+    padding: 22px 74px;
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+   
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+    .form {
+        width: 100%;
+        padding: 40px 40px 40px 40px;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .p {
+        font-size: 34px;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
+    .p2 {
+        font-size: 16px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 658px) {
+
+    .form {
+        padding: 20px;
+    }
+
+    .h2 {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .h4 {
+        font-size: 14px;
+    }
+
+    .p {
+        font-size: 32px;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
+    .p2 {
+        font-size: 14px;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .button {
+        max-width: 100%;
+        padding: 22px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+
+.h2 {
+    font-size: 24px;
+}
+
+.h4 {
+    font-size: 12px;
+}
+
+.p {
+    font-size: 28px;
+}
+
+.p2 {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 460px) {
+
+    .form {
+        padding: 15px;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+    
+    .h4 {
+        font-size: 12px;
+    }
+    
+    .p {
+        font-size: 24px;
+    }
+    
+    .p2 {
+        font-size: 12px;
+    }
+    }
+
